@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiegelung</title>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="juxtapose.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+</head>
+<body>
+    <!-- CONTENT -->
+
+
+    <main>
+
+      <section id="outro">
+     <div id="textblock"><h1>Ergebnis des Beteiligungsformats</h1>
+        <p>Vielen Dank für die rege Teilnahme an dem Beteiligungsformat zur Entwicklung einer neuen visuellen Identität für das ISR. Auf dieser Seite finden Sie zunächst die Abstimmungsergebnisse und Kommentare zu unserem Ursprungsentwurf. Außerdem präsentieren wir Ihnen das Endergebnis. Da die Mehrheit der Teilnehmer*innen positiv auf das Konzept reagiert hat, haben wir uns dazu entschlossen, dieses beizubehalten und weiter auszuarbeiten.</p>
+      </div>
+    </section>
+
+        <section id="scrolly">
+            <article>
+              <div class="step" data-step="one">
+                <p>Insgesamt gab es 55 Beteiligungen.</p>
+              </div>
+              <div class="step" data-step="two">
+                <p>Von den 55 Beteiligungen haben wir 38 als <span id="pos">positiv</span> und <span id="neg">17</span> als negativ gegenüber dem Konzept vermerkt.</p>
+              </div>
+              <div class="step" data-step="three">
+                <p>23 der 38 positiven Beteiligungen fanden den Entwurf  <span id="pos">gut</span> und haben keinen Kommentar abgegeben. Die 15 anderen positiven Beteiligungen fanden das grundlegende Konzept gut, haben jedoch <span id="pos-mid">konstruktive</span> Kritik formuliert.
+                 <br><br>
+                 4 der insgesamt 17 negativen Kommentare konnten mit <span id="neg-mid">einzelnen Elementen des Entwurfs nichts anfangen.</span> Die anderen 13 negativen Beteiligungen waren vom Konzept <span id="neg">nicht überzeugt.</span>
+                </p>
+              </div>
+            </article>
+
+
+
+            <figure>
+              <div id="tooltip"> (Hover über die Kästen für mehr Infos)</div>
+
+            </figure>
+          </section>
+    
+          <section id="outro">
+            <p id="desc">In der Bildmarke haben wir die Übergänge zwischen den größeren und den kleineren Elementen bearbeitet, sodass die Übergänge zwischen ihnen fließender sind. Außerdem haben wir die Bildmarken für kleinere Größen optimiert bzw. sogenannte optical sizes generiert. Die neu ausgewählte Schrift ist ausdrucksstärker und ausserdem open source.</p>
+              <div class="juxtapose" data-startingposition="15%" data-mode="horizontal">
+                <img class="left" src="vorher_a.jpg" data-label="vorher" alt="alt-description" />
+                <img class="right" src="nachher_a.jpg" data-label="nachher" alt="alt-description" />
+          </section>
+
+
+
+          <section id="outro">
+            <p id="desc">Bei Buchcovern kann das Quadrat der Bildmarke als Bildfläche aufgenommen werden. Die Muster der Bildmarke können optional als Hintergrund benutzt werden. Die Setzung der Schrift ist nun ruhiger.</p>
+
+            <div class="juxtapose" data-startingposition="55%" data-mode="horizontal">
+              <img class="left" src="vorher_b.jpg" data-label="vorher" alt="alt-description" />
+              <img class="right" src="nachher_b.jpg" data-label="nachher" alt="alt-description" />
+          </div>
+        </section>
+
+        <section id="outro">
+          <p id="desc">Weiterhin ist das Konzept vielseitig einsetzbar, zum Beispiel bei wertig gestalteten Zeugnissen oder bei alltäglichen Dingen wie einem Notizblock.</p>
+          <div class="juxtapose" data-startingposition="25%" data-mode="horizontal">
+            <img class="left" src="vorher_c.jpg" data-label="vorher" alt="alt-description" />
+            <img class="right" src="nachher_c.jpg" data-label="nachher" alt="alt-description" />
+        </div>
+      </section>
+
+
+      <section id="outro">
+        <div id="textblock">
+           <p>In der folgenden Bilderserie präsentieren wir Ihnen noch einmal die finalen Elemente der visuellen Identität des ISR. </p>
+         </div>
+       </section>
+
+
+
+        <div class="wrapper" id="js-wrapper">
+          <div class="articles" id="js-slideContainer">
+            <article class="article">
+              <span class="articleTitle" id="title1"><b></span>
+              <img src="final_logo.jpg" alt="Konzept" width="auto" height="100%" />
+            </article>
+
+            <article class="article">
+              <span class="articleTitle" id="title2"></span>
+              <img src="final_publ.jpg" alt="Konzept" width="auto" height="100%" />
+            </article>
+
+            <article class="article">
+              <span class="articleTitle" id="title3"></span>
+              <img src="final_urkunde.jpg" alt="Konzept" width="auto" height="100%" />
+            </article>
+
+            <article class="article">
+              <span class="articleTitle" id="title4"></span>
+              <img src="final_typo.jpg" alt="Konzept" width="auto" height="100%" />
+            </article>
+
+            <article class="article">
+              <span class="articleTitle" id="title5"></span>
+              <img src="final_lang.jpg" alt="Konzept" width="auto" height="100%" />
+            </article>
+
+          </div>
+        </div>
+
+        <section id="outro">
+          <div id="textblock"><h1>Next Steps</h1>
+             <p>Wir möchten uns noch einmal sehr herzlich für die rege Teilnahme bedanken und freuen uns über die neue visuelle Identität des ISR. Die verschiedenenen Elemente werden wir Ihnen bald inklusive Manual via einem Downloadlink zur Verfügung stellen.</p>
+           </div>
+         </section>
+    </main>
+
+    <!-- libraries -->
+    <script src="//d3js.org/d3.v4.min.js"></script>
+    <script src="https://unpkg.com/intersection-observer"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src='juxtapose.js'></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
