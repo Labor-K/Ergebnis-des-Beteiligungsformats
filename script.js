@@ -9,7 +9,7 @@ function init() {
   scroller
     .setup({
       step: "#scrolly article .step",
-      offset: 0.5,
+      offset: 0.6,
     //   debug: true
     })
     .onStepEnter(handleStepEnter);
@@ -21,7 +21,6 @@ function init() {
 function handleStepEnter(response) {
   
   // response = { element, direction, index }
-  console.log(response);
 
   // get the data step attribute which has our "stacked, grouped, or percent value"
   var chartType = response.element.getAttribute("data-step")
